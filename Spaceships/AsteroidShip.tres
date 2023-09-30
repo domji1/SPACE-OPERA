@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Spaceships/ShipData.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Asteroid.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+P1Text = ExtResource( 2 )
+P2Text = ExtResource( 2 )
+MaxSpeed = 300
+TurnSpeed = 500
+Speed = 5
+Health = 120
+Mass = 0.5
+Scale = 5.0
+Zoom = 1.7
+HasTrail = false
